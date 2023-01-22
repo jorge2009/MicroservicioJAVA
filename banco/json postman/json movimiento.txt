@@ -1,0 +1,65 @@
+Insert 
+{
+        "fecha": "2023-01-23",
+        "tipo_movimiento": "debito",
+        "valor": 40.0,
+        "saldo": 40.0,
+        "cuenta": {
+            "idCuenta": 1,
+            "cliente": {
+                "persona": {
+                    "identificacion": 1715555647,
+                    "nombre": "Maria Estrada",
+                    "genero": "Femenino",
+                    "idPersona": 1,
+                    "telefono": 2144443647,
+                    "edad": 23,
+                    "direccion": "La central sn y Principal"
+                },
+                "contraseña": "5555",
+                "estado": "True",
+                "idCliente": 1
+            },
+            "numero_cuenta": 57876,
+            "tipo_cuenta": null,
+            "saldo_inicial": 0.0,
+            "estado": 1
+        },
+        "idMonimiento":4
+    }
+update
+{
+        "fecha": "2023-01-23",
+        "tipo_movimiento": "debito",
+        "valor": 40.0,
+        "saldo": 40.0,
+        "cuenta": {
+            "idCuenta": 1,
+            "cliente": {
+                "persona": {
+                    "identificacion": 1715555647,
+                    "nombre": "Maria Estrada",
+                    "genero": "Femenino",
+                    "idPersona": 1,
+                    "telefono": 2144443647,
+                    "edad": 23,
+                    "direccion": "La central sn y Principal"
+                },
+                "contraseña": "5555",
+                "estado": "True",
+                "idCliente": 1
+            },
+            "numero_cuenta": 57876,
+            "tipo_cuenta": null,
+            "saldo_inicial": 0.0,
+            "estado": 1
+        },
+        "idMonimiento":4
+    }
+
+Buscar movimiento por id
+localhost:8080/movimiento/5
+
+Delete
+localhost:8080/movimiento/4
+

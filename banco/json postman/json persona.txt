@@ -1,0 +1,81 @@
+{
+    "nombre": "miguel ramirez",
+    "edad": 35,
+    "direccion": "el bosque",
+    "telefono": 5465435,
+    "genero": "masculino",
+    "identificacion": 1711756787
+}
+
+
+cliente
+   {
+        "persona": {
+            "identificacion": null,
+            "edad": null,
+            "genero": null,
+            "telefono": null,
+            "direccion": null,
+            "idPersona": 3,
+            "nombre": null
+        },
+        "contraseña": "1234",
+        "estado": "activo",
+        "idCliente": 3
+    }
+
+
+cuenta
+{
+        "persona": {
+            "identificacion": null,
+            "edad": null,
+            "genero": null,
+            "telefono": null,
+            "direccion": null,
+            "idPersona": 4,
+            "nombre": null
+        },
+        "contraseña": "1234",
+        "estado": "True",
+        "idCliente": 4
+    }
+
+movimiento
+{
+        "fecha": "2023-01-22T07:09:09.000+00:00",
+        "tipo_movimiento": "deposito",
+        "valor": 10.0,
+        "saldo": 20.0,
+        "cuenta": {
+            "idCuenta": 1,
+            "cliente": {
+                "persona": {
+                    "identificacion": 1714583647,
+                    "edad": 23,
+                    "direccion": "Otavalo sn y Principal",
+                    "nombre": "Jose Lema",
+                    "telefono": 2147483647,
+                    "idPersona": 1,
+                    "genero": "Masculino"
+                },
+                "contraseña": "1234",
+                "estado": "True",
+                "idCliente": 1
+            },
+            "numero_cuenta": 34565,
+            "tipo_cuenta": "corriente",
+            "saldo_inicial": 10.0,
+            "estado": 1
+        },
+        "idMonimiento": 1
+    }
+]
+
+
+Obtener persona
+localhost:8080/persona/1
+
+Obtener persona por identificacion
+localhost:8080/persona/query?identificacion=1723444434
+

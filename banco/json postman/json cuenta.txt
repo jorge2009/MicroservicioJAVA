@@ -1,0 +1,56 @@
+get
+localhost:8080/cuenta
+
+
+Insert 
+{
+        "idCuenta": 2,
+        "cliente": {
+            "persona": {
+                "edad": 23,
+                "direccion": "La central sn y Principal",
+                "nombre": "Maria Estrada",
+                "genero": "Femenino",
+                "telefono": 2144443647,
+                "idPersona": 1,
+                "identificacion": 1715555647
+            },
+            "contraseña": "5555",
+            "estado": "True",
+            "idCliente": 1
+        },
+        "numero_cuenta": 35367,
+        "tipo_cuenta": "ahorro",
+        "saldo_inicial": 25.25,
+        "estado": 1
+    }
+
+update
+ {
+        "idCuenta": 2,
+        "cliente": {
+            "persona": {
+                "edad": 23,
+                "direccion": "La central sn y Principal",
+                "nombre": "Maria Estrada",
+                "genero": "Femenino",
+                "telefono": 2144443647,
+                "idPersona": 1,
+                "identificacion": 1715555647
+            },
+            "contraseña": "5555",
+            "estado": "True",
+            "idCliente": 1
+        },
+        "numero_cuenta": 35367,
+        "tipo_cuenta": "ahorro",
+        "saldo_inicial": 25.25,
+        "estado": 1
+    }
+
+Buscar cuenta por id
+localhost:8080/cuenta/1
+
+Delete
+localhost:8080/cuenta/5
+

@@ -1,0 +1,39 @@
+Insert 
+{
+        "persona": {
+            "telefono": 2147483647,
+            "idPersona": 1,
+            "direccion": "Otavalo sn y Principal",
+            "genero": "Masculino",
+            "edad": 53,
+            "nombre": "Jose Lema",
+            "identificacion": 1714583647
+        },
+        "contraseña": "5555",
+        "estado": "True",
+        "idCliente": 1
+    }
+
+
+update
+ {
+        "persona": {
+            "telefono": 2147483647,
+            "idPersona": 1,
+            "direccion": "Otavalo sn y Principal",
+            "genero": "Masculino",
+            "edad": 53,
+            "nombre": "Jose Lema",
+            "identificacion": 1714583647
+        },
+        "contraseña": "5555",
+        "estado": "True",
+        "idCliente": 1
+    }
+
+Buscar cliente por id
+localhost:8080/cliente/5
+
+Delete
+localhost:8080/cliente/3
+
